@@ -12,4 +12,8 @@
         <loc>http://redpuma.github.io/robots.txt</loc>
         <lastmod>2014-03-03T00:20:21+00:00</lastmod>
     </url>
+    <url>
+        <loc>http://redpuma.github.io/testing/</loc>
+        <lastmod>2014-03-03T00:41:41+00:00</lastmod>
+    </url>
 </urlset>

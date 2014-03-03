@@ -1,0 +1,325 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Testing - My Octopress Blog</title>
+  <meta name="author" content="Your Name">
+
+  
+  <meta name="description" content="Testing Mar 3rd, 2014 Tools Test runners Karma : more info JS
+WebdriverJS
+js-test-driver Java Test environments PhantomJS &ndash; Browser Testing &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://redpuma.github.io/testing">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">My Octopress Blog</a></h1>
+  
+    <h2>A blogging framework for hackers.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:redpuma.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article role="article">
+  
+  <header>
+    <h1 class="entry-title">Testing</h1>
+    <p class="meta">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-03T00:40:00+00:00" pubdate data-updated="true">Mar 3<span>rd</span>, 2014</time></p>
+  </header>
+  
+  <h2>Tools</h2>
+
+<h3>Test runners</h3>
+
+<ul>
+<li><a href="http://karma-runner.github.io/0.10/index.html">Karma</a> :  <a href="http://googletesting.blogspot.co.uk/2012/11/testacular-spectacular-test-runner-for.html?m=1"><em>more info</em></a> <em>JS</em></li>
+<li><a href="https://github.com/camme/webdriverjs/blob/master/README.md">WebdriverJS</a></li>
+<li><a href="https://code.google.com/p/js-test-driver/" title="Java">js-test-driver</a> <em>Java</em></li>
+</ul>
+
+
+<h3>Test environments</h3>
+
+<ul>
+<li><a href="http://phantomjs.org/">PhantomJS</a>
+
+<h2>&ndash; Browser</h2>
+
+<h3>Testing frameworks *</h3></li>
+<li><a href="http://visionmedia.github.com/mocha/">Mocha</a></li>
+<li><a href="http://pivotal.github.com/jasmine/">Jasmine</a></li>
+<li><a href="http://qunitjs.com/">qUnit</a>
+
+<h2>&ndash; <a href="http://www.enhance-js.com/Content/Home/">EnhanceJS</a></h2>
+
+<h3>Assertion framework</h3></li>
+<li><a href="http://chaijs.com/">Chai</a> (<em>mocha?</em>)</li>
+<li><a href="https://github.com/visionmedia/should.js/blob/master/Readme.md">ShouldJS</a> (<em>from Mocha creators</em>)</li>
+<li><a href="http://sinonjs.org">SinonJS</a></li>
+</ul>
+
+
+<h3>Tool chain</h3>
+
+<ul>
+<li>build >runner >framework >assertion lib</li>
+<li>Fez/Brocoli/Grunt >Karma >Mocha >Chai</li>
+</ul>
+
+
+<h3>thoughts</h3>
+
+<p>Karma looks like the best option so far, framework agnostic etc. so need to see how to put it all together with IDE and Maven. Also look into best choice of unit testing framework. Would be awesome to have an example of piece of code being tested by various frameworks. Put example on GitHub</p>
+
+<hr />
+
+<blockquote><p>Unlike Jasmine which is more like an entire test suite in one package, Mocha only takes care of the overall structure but has nothing to do with the actual assertions. This allows you to keep a consistent look and feel when running your tests, but also allows you to run whichever assertion library best fits your situation.<a href="http://code.tutsplus.com/tutorials/testing-in-nodejs--net-35018">src</a></p></blockquote>
+
+<h3>test</h3>
+
+<blockquote><p>Good blog <a href="http://code.tutsplus.com/tutorials/headless-functional-testing-with-selenium-and-phantomjs--net-30545">selinium &amp; mocha</a></p></blockquote>
+
+<p><a href="http://stackoverflow.com/questions/10472152/standalone-assertion-libraries/10480546#10480546">http://stackoverflow.com/questions/10472152/standalone-assertion-libraries/10480546#10480546</a></p>
+
+<h3>RequireJS issues</h3>
+
+<p>Looks like <a href="http://requirejs.org">RequireJS</a> is problematic, but <a href="http://browserify.org">Browserify</a> solves issues (<a href="http://codeofrob.com/entries/why-i-stopped-using-amd.html"><em>why</em></a>)
+Awesome series of blog posts <a href="http://codeofrob.com/entries/grunt+browserify+npm+application=success.html">Code of Rob</a> which show how to put a JS app together using the latest techniques. Reckon we should use the front end techniques for front end code and have Maven run it up to test and build for release. So front end tools build for development and dev testing, and are bootstrappped by Maven for the packaged release. Am I stating the obvious?</p>
+
+<h3>Data Binding</h3>
+
+<blockquote><p>UI data binding is a software design pattern to simplify development of GUI applications. UI data binding binds UI elements to an application domain model. Most frameworks employ the Observer pattern as the underlying binding mechanism. To work efficiently, UI data binding has to address input validation and data type mapping.
+A bound control is a widget whose value is tied or bound to a field in a recordset (i.e., a column in a row of a table). Changes made to data within the control are automatically saved to the database when the control&rsquo;s exit event triggers
+<a href="http://en.wikipedia.org/wiki/UI_data_binding">http://en.wikipedia.org/wiki/UI_data_binding</a></p></blockquote>
+
+<p><a href="http://knockoutjs.com/">knockout.js</a>
+<a href="http://backbonejs.org/">Backbone.js</a>
+<a href="http://emberjs.com/">Ember.js</a>
+<a href="http://canjs.com/">Can.js</a>
+<a href="http://rivetsjs.com/">Rivets.js</a>
+<a href="http://lava.codeplex.com/">Lava JS</a>
+<a href="http://angularjs.org/">AngularJS</a></p>
+
+<p>If we take a look at the <a href="http://todomvc.com" title="Helping you select an MV* framework">TodoMVC</a> page we can see many many options which demonstrates the reason I&rsquo;ve written this document, I&rsquo;m suffering from <a href="https://the-pastry-box-project.net/addy-osmani/2014-January-19">Front-end Choice Paralysis</a>.</p>
+
+<blockquote><p>A problem we regularly face in this industry is an abundance of choice. We have a plethora of tools, frameworks, languages, abstractions and platforms. Choice is ultimately good for competition and innovation, however when faced with too many choices, we can feel paralysis. Rather than making a choice we feel frozen and alone with the indecision of having too many options in front of us.</p></blockquote>
+
+<p>This paragraph sums up my frustration:</p>
+
+<blockquote><p>JavaScript has “Yet another framework syndrome” (how many solutions do we have for MVC, template rendering or data-binding?), Perl has “There’s more than one way to do it” (TIMTOWTDI), and Python has “There should be one obvious way to do it”, The Zen of Python.
+It</p></blockquote>
+
+<p>However there is much going on, Ghost have decided on a MVC framwork to replace their current implementation using BackboneJS, read the discussion <a href="https://github.com/TryGhost/Ghost/issues/2144" title="The future of Ghost's admin UI">here</a>.</p>
+
+<h2>Integrating JavaScript Testing with Maven</h2>
+
+<h3>Random thoughts</h3>
+
+<p><a href="http://ivandemarino.me/2011/07/09/Maven-PhantomJS-and-Jasmine-to-write-your-JS-Unit-Testing/">http://ivandemarino.me/2011/07/09/Maven-PhantomJS-and-Jasmine-to-write-your-JS-Unit-Testing/</a></p>
+
+<p><a href="http://coderthoughts.blogspot.co.uk/2013/10/running-pure-jasmine-unit-tests-through.html">running-pure-jasmine-unit-tests-through</a></p>
+
+<h3>jasmine-maven-plugin</h3>
+
+<ul>
+<li><a href="http://searls.github.io/jasmine-maven-plugin/">http://searls.github.io/jasmine-maven-plugin/</a> | Documentation, maintained.</li>
+<li><p>A blog post <a href="http://engagedevcamp.wordpress.com/2013/04/17/jasmine-integration-into-maven/">http://engagedevcamp.wordpress.com/2013/04/17/jasmine-integration-into-maven/</a></p></li>
+<li><p><a href="http://coding.smashingmagazine.com/2014/02/12/build-cli-tool-nodejs-phantomjs/">Smashing Magazine article</a></p></li>
+<li><p><a href="http://www.jayway.com/2012/04/17/configuring-jasmine-to-work-with-maven-and-jquery-fixtures/">configuring-jasmine-to-work-with-maven-and-jquery-fixtures</a></p></li>
+<li><p><a href="http://blog.akquinet.de/2011/02/11/mavenizing-javascript-projects/">Mavenizing Javascript Projects</a></p></li>
+<li><p><a href="http://mojo.codehaus.org/exec-maven-plugin/">exec-maven-plugin</a></p></li>
+</ul>
+
+
+<h3>Grunt</h3>
+
+<ul>
+<li><p>Addy Osmani &ndash; <a href="http://addyosmani.com/blog/making-maven-grunt/">making-maven-grunt</a></p></li>
+<li><p>This is very clear run through including css/js compression  <a href="http://blog.tfnico.com/2013/07/considerations-for-javascript-in-modern.html">http://blog.tfnico.com/2013/07/considerations-for-javascript-in-modern.html</a>
+  In fact looks like it has a lot of the answers, github project, examples etc <em>The quickstart archetype creates a simple javascript application</em></p></li>
+</ul>
+
+
+<blockquote><p>Grunt offers infinite ways to get extended and configured, easily tackling the most demanding build flows out there. In this article a sensible setup for complex build flows will be presented, it will demonstrate how you can scale Grunt to use in large and distributed teams and perform complex and optimized builds.<a href="http://thanpol.as/grunt/Managing-large-scale-projects-with-Grunt/" title="Managing Large Scale Projects with Grunt">src</a></p></blockquote>
+
+<p><a href="http://thanpol.as/grunt/Managing-large-scale-projects-with-Grunt/" title="Managing Large Scale Projects with Grunt">Managing Large Scale Projects with Grunt</a></p>
+
+<h3>Grunt replacements (yes already)</h3>
+
+<ul>
+<li><a href="http://www.solitr.com/blog/2014/02/broccoli-first-release">Brocoli</a> | <em>Grunt is a task runner, and it never set out to be a build tool.</em></li>
+<li><a href="http://flippinawesome.org/2014/02/24/using-grunt-consider-fez">Fez</a> | <em>Fez approaches the problem from a different perspective: that of a build tool, not a task runner</em></li>
+<li><p><a href="http://markdalgleish.github.io/presentation-build-wars-gulp-vs-grunt/">Gulp</a> | And another one arrives (presentation works in Chrome)</p>
+
+<p>  Does it replace Grunt? Are these all competing for the same job?</p></li>
+</ul>
+
+
+<h2>JavaScript</h2>
+
+<p>Why its important to test in browsers and JavaScript environments:</p>
+
+<blockquote><p>There are no dialects of “javascript”; there are several im­ple­men­ta­tions of ECMAScript that are widely distributed, primarily through web brows­ers. The fea­tures that allow one to manipulate web brows­ers are not part of any such pro­gram­ming language; they are environment-dependent im­ple­men­ta­tions of language-independent APIs for which a lan­guage binding is specified so that they can be used with that pro­gram­ming language.</p></blockquote>
+
+<p><a href="http://pointedears.de/scripts/test/es-matrix/" title="There is no javascript">ECMAScript Support Matrix</a> <em>There is no javascript</em>.</p>
+
+<p><a href="http://kangax.github.io/es5-compat-table/es6/">http://kangax.github.io/es5-compat-table/es6/</a></p>
+
+<h3>jQuery</h3>
+
+<blockquote><p>However, it’s important to also understand browsers are still prone to bugs. In fact, in <a href="http://blog.jquery.com/2013/01/14/the-state-of-jquery-2013/" title="Official jQuery Blog">the state of jQuery 2013</a> it is claimed that “jQuery 2.0 now has more patches and shims for Chrome, Safari, and Firefox than for Internet Explorer!”.
+<a href="https://tech.bellycard.com/blog/the-future-of-jquery/">The Future of jQuery</a></p>
+
+<p>A solid DOM library, like jQuery,  is a great companion if you’re interacting with the DOM. It means you don’t have to become a deep subject matter expert on all things DOM and your users get predictable support &amp; familiar APIs to tie into.
+<a href="https://docs.google.com/a/redpumas.com/document/d/1LPaPA30bLUB_publLIMF0RlhdnPx_ePXm7oW02iiT6o/edit" title="Paul Irish?">jQuery&rsquo;s browser bug workarounds</a></p></blockquote>
+
+<h2>JavaScript Stacks</h2>
+
+<p>So here is a good <a href="http://addyosmani.com/blog/short-musings-on-javascript-mv-tech-stacks/">blog</a></p>
+
+<h2>Best Practices</h2>
+
+<p><a href="https://github.com/thomasdavis/best-practices">https://github.com/thomasdavis/best-practices</a></p>
+
+  
+    <footer>
+      <p class="meta">
+        
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-03T00:40:00+00:00" pubdate data-updated="true">Mar 3<span>rd</span>, 2014</time>
+        
+      </p>
+      
+        <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://redpuma.github.io/testing/index.html" data-via="" data-counturl="http://redpuma.github.io/testing/index.html" >Tweet</a>
+  
+  
+  
+</div>
+
+      
+    </footer>
+  
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Your Name -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
