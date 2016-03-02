@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://redpuma.github.io/sitemap.xml 
